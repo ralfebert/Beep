@@ -1,0 +1,13 @@
+name: Beep
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "10.0"
+targets:
+  Beep:
+    type: application
+    platform: iOS
+    sources: [Beep]
+    settings:
+      base:
+        SWIFT_VERSION: 5.0

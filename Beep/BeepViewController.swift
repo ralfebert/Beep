@@ -1,15 +1,10 @@
-//
-//  ViewController.swift
-//  Beep
-//
-//  Created by Ralf Ebert on 16.07.18.
-//  Copyright © 2018 Example. All rights reserved.
-//
+// (C) 2019, Ralf Ebert - iOS Example Project: Beep
+// License: https://opensource.org/licenses/0BSD
 
-import UIKit
 import AVFoundation
+import UIKit
 
-class ViewController: UIViewController {
+class BeepViewController: UIViewController {
 
     let player = AVPlayer(url: Bundle.main.url(forResource: "trumpet", withExtension: "mp3")!)
 
@@ -18,9 +13,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func beep(_ sender: Any) {
-        player.play()
+    @IBAction func beep(_: Any) {
+        self.player.play()
     }
 
 }
-

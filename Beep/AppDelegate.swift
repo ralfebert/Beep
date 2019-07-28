@@ -1,10 +1,5 @@
-//
-//  AppDelegate.swift
-//  Beep
-//
-//  Created by Ralf Ebert on 16.07.18.
-//  Copyright © 2018 Example. All rights reserved.
-//
+// (C) 2019, Ralf Ebert - iOS Example Project: Beep
+// License: https://opensource.org/licenses/0BSD
 
 import UIKit
 
@@ -13,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         // Override point for customization after application launch.
         return true
     }

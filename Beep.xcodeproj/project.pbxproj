@@ -3,80 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF49DFEB20FCD5FA004DC033 /* trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF49DFEA20FCD5FA004DC033 /* trumpet.mp3 */; };
-		BFDB4E7720FCD2E300D1525B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB4E7620FCD2E300D1525B /* AppDelegate.swift */; };
-		BFDB4E7920FCD2E300D1525B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB4E7820FCD2E300D1525B /* ViewController.swift */; };
-		BFDB4E7C20FCD2E300D1525B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDB4E7A20FCD2E300D1525B /* Main.storyboard */; };
-		BFDB4E7E20FCD2E400D1525B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDB4E7D20FCD2E400D1525B /* Assets.xcassets */; };
-		BFDB4E8120FCD2E400D1525B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDB4E7F20FCD2E400D1525B /* LaunchScreen.storyboard */; };
+		0064308ECAFA70DECF9C496D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E0A88177CADE99B4AC6F5E /* LaunchScreen.storyboard */; };
+		4112B11F68D01C63B3E2363F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BFD62C01C8256C235B97A7 /* Assets.xcassets */; };
+		690AADFBBD167BBB3C6A78CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5953540C6021CBA3F4F07420 /* Main.storyboard */; };
+		91F4F49A46C5A92C0CA1600E /* trumpet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBC843505CA5580787C919F4 /* trumpet.mp3 */; };
+		CD0B95889AA8251606A6844A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240BB9F36333227F1E8A78E3 /* AppDelegate.swift */; };
+		F015FFF3C1A70844E9236ED8 /* BeepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F99070810D543A303573A1F /* BeepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF49DFEA20FCD5FA004DC033 /* trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpet.mp3; sourceTree = "<group>"; };
-		BFDB4E7320FCD2E300D1525B /* Beep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beep.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFDB4E7620FCD2E300D1525B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFDB4E7820FCD2E300D1525B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFDB4E7B20FCD2E300D1525B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFDB4E7D20FCD2E400D1525B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFDB4E8020FCD2E400D1525B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFDB4E8220FCD2E400D1525B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7767335CC0F594228A3F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240BB9F36333227F1E8A78E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		670DA3A231C84D549C5CFB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F99070810D543A303573A1F /* BeepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepViewController.swift; sourceTree = "<group>"; };
+		B9E7EF587EA7949B8EA3B3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DDC33A2E7014A4565C4823 /* Beep.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Beep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BFD62C01C8256C235B97A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBC843505CA5580787C919F4 /* trumpet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trumpet.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		BFDB4E7020FCD2E300D1525B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		BFDB4E6A20FCD2E300D1525B = {
+		04044730FA986C8DE9DFC7B5 = {
 			isa = PBXGroup;
 			children = (
-				BFDB4E7520FCD2E300D1525B /* Beep */,
-				BFDB4E7420FCD2E300D1525B /* Products */,
+				472B5880A06FF2BEA9572AD7 /* Beep */,
+				C39E92F63115DC7D2D3EB758 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BFDB4E7420FCD2E300D1525B /* Products */ = {
+		472B5880A06FF2BEA9572AD7 /* Beep */ = {
 			isa = PBXGroup;
 			children = (
-				BFDB4E7320FCD2E300D1525B /* Beep.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BFDB4E7520FCD2E300D1525B /* Beep */ = {
-			isa = PBXGroup;
-			children = (
-				BFDB4E7620FCD2E300D1525B /* AppDelegate.swift */,
-				BFDB4E7820FCD2E300D1525B /* ViewController.swift */,
-				BFDB4E7A20FCD2E300D1525B /* Main.storyboard */,
-				BFDB4E7D20FCD2E400D1525B /* Assets.xcassets */,
-				BFDB4E7F20FCD2E400D1525B /* LaunchScreen.storyboard */,
-				BFDB4E8220FCD2E400D1525B /* Info.plist */,
-				BF49DFEA20FCD5FA004DC033 /* trumpet.mp3 */,
+				240BB9F36333227F1E8A78E3 /* AppDelegate.swift */,
+				D9BFD62C01C8256C235B97A7 /* Assets.xcassets */,
+				6F99070810D543A303573A1F /* BeepViewController.swift */,
+				0E7767335CC0F594228A3F77 /* Info.plist */,
+				65E0A88177CADE99B4AC6F5E /* LaunchScreen.storyboard */,
+				5953540C6021CBA3F4F07420 /* Main.storyboard */,
+				EBC843505CA5580787C919F4 /* trumpet.mp3 */,
 			);
 			path = Beep;
+			sourceTree = "<group>";
+		};
+		C39E92F63115DC7D2D3EB758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDC33A2E7014A4565C4823 /* Beep.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFDB4E7220FCD2E300D1525B /* Beep */ = {
+		4E1E84473F88659B8C224DAF /* Beep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFDB4E8520FCD2E400D1525B /* Build configuration list for PBXNativeTarget "Beep" */;
+			buildConfigurationList = A88B49A62424E5BF115E8955 /* Build configuration list for PBXNativeTarget "Beep" */;
 			buildPhases = (
-				BFDB4E6F20FCD2E300D1525B /* Sources */,
-				BFDB4E7020FCD2E300D1525B /* Frameworks */,
-				BFDB4E7120FCD2E300D1525B /* Resources */,
+				BB0E674DAEBBE600706B8523 /* Sources */,
+				F302C87AB85D8F8B56186D0E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,81 +73,72 @@
 			);
 			name = Beep;
 			productName = Beep;
-			productReference = BFDB4E7320FCD2E300D1525B /* Beep.app */;
+			productReference = D5DDC33A2E7014A4565C4823 /* Beep.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFDB4E6B20FCD2E300D1525B /* Project object */ = {
+		7B20E5A0EC915A61F761D5E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Example;
-				TargetAttributes = {
-					BFDB4E7220FCD2E300D1525B = {
-						CreatedOnToolsVersion = 10.0;
-					};
-				};
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = BFDB4E6E20FCD2E300D1525B /* Build configuration list for PBXProject "Beep" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 961FECD42314932DAB02CF59 /* Build configuration list for PBXProject "Beep" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
-			mainGroup = BFDB4E6A20FCD2E300D1525B;
-			productRefGroup = BFDB4E7420FCD2E300D1525B /* Products */;
+			mainGroup = 04044730FA986C8DE9DFC7B5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFDB4E7220FCD2E300D1525B /* Beep */,
+				4E1E84473F88659B8C224DAF /* Beep */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFDB4E7120FCD2E300D1525B /* Resources */ = {
+		F302C87AB85D8F8B56186D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDB4E8120FCD2E400D1525B /* LaunchScreen.storyboard in Resources */,
-				BFDB4E7E20FCD2E400D1525B /* Assets.xcassets in Resources */,
-				BF49DFEB20FCD5FA004DC033 /* trumpet.mp3 in Resources */,
-				BFDB4E7C20FCD2E300D1525B /* Main.storyboard in Resources */,
+				4112B11F68D01C63B3E2363F /* Assets.xcassets in Resources */,
+				0064308ECAFA70DECF9C496D /* LaunchScreen.storyboard in Resources */,
+				690AADFBBD167BBB3C6A78CE /* Main.storyboard in Resources */,
+				91F4F49A46C5A92C0CA1600E /* trumpet.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BFDB4E6F20FCD2E300D1525B /* Sources */ = {
+		BB0E674DAEBBE600706B8523 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDB4E7920FCD2E300D1525B /* ViewController.swift in Sources */,
-				BFDB4E7720FCD2E300D1525B /* AppDelegate.swift in Sources */,
+				CD0B95889AA8251606A6844A /* AppDelegate.swift in Sources */,
+				F015FFF3C1A70844E9236ED8 /* BeepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFDB4E7A20FCD2E300D1525B /* Main.storyboard */ = {
+		5953540C6021CBA3F4F07420 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFDB4E7B20FCD2E300D1525B /* Base */,
+				670DA3A231C84D549C5CFB14 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BFDB4E7F20FCD2E400D1525B /* LaunchScreen.storyboard */ = {
+		65E0A88177CADE99B4AC6F5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BFDB4E8020FCD2E400D1525B /* Base */,
+				B9E7EF587EA7949B8EA3B3FA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +146,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BFDB4E8320FCD2E400D1525B /* Debug */ = {
+		76C8900B1ADD3E97296D72DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,7 +156,6 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -198,68 +177,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		BFDB4E8420FCD2E400D1525B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -272,72 +189,125 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BFDB4E8620FCD2E400D1525B /* Debug */ = {
+		A54AFA588D5E9AA7C4C194AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Beep/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Beep;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BFDB4E8720FCD2E400D1525B /* Release */ = {
+		DB1E96D659FA1FB3DAC992A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB3377A07C2505AE1D3BC74C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Beep/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Beep;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFDB4E6E20FCD2E300D1525B /* Build configuration list for PBXProject "Beep" */ = {
+		961FECD42314932DAB02CF59 /* Build configuration list for PBXProject "Beep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFDB4E8320FCD2E400D1525B /* Debug */,
-				BFDB4E8420FCD2E400D1525B /* Release */,
+				DB1E96D659FA1FB3DAC992A0 /* Debug */,
+				76C8900B1ADD3E97296D72DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		BFDB4E8520FCD2E400D1525B /* Build configuration list for PBXNativeTarget "Beep" */ = {
+		A88B49A62424E5BF115E8955 /* Build configuration list for PBXNativeTarget "Beep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFDB4E8620FCD2E400D1525B /* Debug */,
-				BFDB4E8720FCD2E400D1525B /* Release */,
+				A54AFA588D5E9AA7C4C194AF /* Debug */,
+				DB3377A07C2505AE1D3BC74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "";
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFDB4E6B20FCD2E300D1525B /* Project object */;
+	rootObject = 7B20E5A0EC915A61F761D5E2 /* Project object */;
 }
